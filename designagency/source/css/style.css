@@ -1,0 +1,186 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #D7F5DC;
+}
+
+body
+{
+    margin: 0;
+    padding: auto;
+}
+
+header .navigateur 
+{
+    position: absolute;
+}
+
+header .navigateur img
+{
+    position: absolute;
+    left: 70px;
+    top: 33px;
+}
+
+header .navigateur ul li
+{
+    position: relative;
+    display: inline-block;
+    left: 502px;
+    top: 40px;
+    margin-left: 45px;
+    color: #000;
+    font-family: 'poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+header .navigateur ul li .login
+{
+    background-color: #D7F5DC;
+    color: black;
+    border: 2px solid #20B15A;   
+    width: 109px;
+    height: 48px;
+    border-radius: 11.46px;
+    transition-duration: 0.4s;
+}
+
+header .navigateur ul li .login:hover 
+{
+    background-color: #20B15A;
+    color: #fff;
+}
+
+
+
+header .navigateur ul li .register
+{
+    background-color: #20B15A;
+    color: white;
+    border: 2px solid #20B15A;   
+    width: 109px;
+    height: 48px;
+    border-radius: 11.46px;
+    transition-duration: 0.4s;
+}
+
+header .navigateur ul li .register:hover 
+{
+    background-color: white;
+    color: #000;
+}
+
+header .navigateur ul li::before
+{
+    background: #E91E63;
+    transform-origin: 100% 50%;
+}
+  
+header .navigateur ul li:hover::before
+{
+    transform-origin: 0 50%;
+}
+
+.group 
+{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    flex-direction: 0;
+}
+
+.group img
+{
+    position: absolute;
+    top: 114px;
+    left: 703px;
+    width: 495px;
+    height: 404px;
+}
+
+.increase h2
+{
+    position: relative;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    top: 159px;
+    left: 78px;
+    width: 470px;
+}
+
+.increase p
+{
+    position: absolute;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 622px;
+    top: 359px;
+    left: 80px;
+}
+
+.increase button
+{
+    position: relative;
+    background-color: #20B15A;
+    color: white;
+    border: 2px solid #20B15A;   
+    width: 119px;
+    height: 56px;
+    border-radius: 11.46px;
+    font-size: 15px;
+    font-family: 'Poppins';
+    top: 260px;
+    left: 81px;
+}
+
+.increase button:hover 
+{
+    background-color: #077f07;
+    border: 2px solid #3e8e41;
+}
+
+.increase button:active 
+{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #ffffff;
+  transform: translateY(4px);
+  border: 2px solid #3e8e41;
+}
+
+.article 
+{
+    position: absolute;
+}
+
+.article .col-sm-1
+{
+    position: absolute;
+    background: #F8FFF9;
+    width: 1280px;
+    height: 61px;
+    top: 277px;
+}
+
+.article .col-sm-1 img
+{
+    position: relative;
+    background-color: #F8FFF9;
+    top: 18px;
+    left: -92px;
+    display: inline-flex;
+    margin-left: 182px;
+    height: 23px;
+    width: 66px;
+}
